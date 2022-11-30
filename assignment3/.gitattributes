@@ -1,0 +1,4 @@
+libs/** linguist-vendored
+report/** linguist-vendored
+test/** linguist-vendored
+textures/** linguist-vendored
