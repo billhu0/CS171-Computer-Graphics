@@ -1,0 +1,92 @@
+{
+  "spp": 256,
+  "max_depth": 10,
+  "image_resolution" : [100, 100],
+  "cam_config" : {
+    "position" : [0,1,6.8],
+    "look_at": [0,1,0],
+    "ref_up" : [0,1,0],
+    "vertical_fov": 19.5,
+    "focal_length" : 1
+  },
+  "light_config" : {
+    "position": [0, 1.98, 0],
+    "size" : [0.5,0.5],
+    "radiance" : [17.0,12.0,5.0]
+  },
+  "materials" : [
+    {
+      "color" : [0.725, 0.71, 0.68],
+      "type" : "diffuse",
+      "name" : "grey_diffuse"
+    },
+    {
+      "color" : [0.14, 0.45, 0.091],
+      "type" : "diffuse",
+      "name" : "green_diffuse"
+    },
+    {
+      "color" : [0.63, 0.065, 0.05],
+      "type" : "diffuse",
+      "name" : "red_diffuse"
+    }
+  ],
+  "objects" : [
+    {
+      "obj_file_path" : "../assets/left.obj",
+      "material_name" : "red_diffuse",
+      "translate": [0,0,0],
+      "scale" : 1,
+      "has_bvh" : false
+    },
+    {
+      "obj_file_path" : "../assets/right.obj",
+      "material_name" : "green_diffuse",
+      "translate": [0,0,0],
+      "scale" : 1,
+      "has_bvh" : false
+    },
+    {
+      "obj_file_path" : "../assets/floor.obj",
+      "material_name" : "grey_diffuse",
+      "translate": [0,0,0],
+      "scale" : 1,
+      "has_bvh" : false
+    },
+    {
+      "obj_file_path" : "../assets/ceiling.obj",
+      "material_name" : "grey_diffuse",
+      "translate": [0,0,0],
+      "scale" : 1,
+      "has_bvh" : false
+    },
+    {
+      "obj_file_path" : "../assets/back.obj",
+      "material_name" : "grey_diffuse",
+      "translate": [0,0,0],
+      "scale" : 1,
+      "has_bvh" : false
+    },
+    {
+      "obj_file_path" : "../assets/stanford_dragon.obj",
+      "material_name" : "grey_diffuse",
+      "translate": [0.3,0.4,-0.2],
+      "scale" : 4,
+      "has_bvh" : true
+    },
+    {
+      "obj_file_path" : "../assets/stanford_bunny.obj",
+      "material_name" : "grey_diffuse",
+      "translate": [-0.4,-0.1,0.2],
+      "scale" : 4,
+      "has_bvh" : true
+    },
+    {
+      "obj_file_path" : "../assets/short_box.obj",
+      "material_name" : "grey_diffuse",
+      "translate": [0,0,0],
+      "scale" : 1,
+      "has_bvh" : true
+    }
+  ]
+}
