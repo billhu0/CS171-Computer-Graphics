@@ -1,2 +1,3 @@
 libs/** linguist-vendored
 report/** linguist-vendored
+src/glad.c linguist-vendored
