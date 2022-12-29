@@ -6,3 +6,15 @@ This repository contains assignments and final project done during the course CS
 
 
 
+## Assignments
+
+- **Assignment 1**: Exploring OpenGL and Phong Lighting
+- **Assignment 2**: Geometric Modeling
+- **Assignment 3**: Basic Ray Tracer
+- **Assignment 4**: Global illumination
+- **Assignment 5**: Animation with Cloth simulation
+
+## Final Project
+
+- Ray Tracing NURBS surfaces
+
