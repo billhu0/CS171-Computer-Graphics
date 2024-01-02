@@ -1,0 +1,15 @@
+# plane
+
+# vertex start
+v -1.0 1.0 -1.0
+v 1.0 1.0 -1.0
+v 1.0 -1.0 -1.0
+v -1.0 -1.0 -1.0
+# vertex end
+# normal start
+n 0.0 0.0 1.0
+# normal end
+# face start
+f 0 0 1 0 3 0
+f 1 0 2 0 3 0
+# face end

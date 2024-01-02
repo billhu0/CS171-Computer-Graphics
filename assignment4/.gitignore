@@ -41,7 +41,6 @@ vs
 .vscode
 .vs
 
-assets/
 
 # rendered pictures
 result.png
@@ -56,3 +55,5 @@ result.png
 *.out
 *.synctex.gz
 *.toc
+
+!assets/*.obj
